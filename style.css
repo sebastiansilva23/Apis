@@ -1,0 +1,33 @@
+body{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: aliceblue;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 7px;
+    font-family: arial;
+    font-size: medium;
+    width: 80px;
+}
+
+#pokemon-name{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
+
+  

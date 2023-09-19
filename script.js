@@ -20,17 +20,16 @@ document.addEventListener("DOMContentLoaded", () => {
         let height = data.height;
         let weight = data.weight;
         let experiencia = data.base_experience;
-        let forma = data.forms;
         let imagenUrl = data.sprites.front_default;
 
         let pokemonInfo = document.getElementById("pokemon-info");
         //Crea un elemento DIV para mostrar la informacion del Pokémon.
         let infoElement = document.createElement("div");
         infoElement.innerHTML = "<h2>Nombre del Pokémon: " + nombre + "</h2>";
-        infoElement.innerHTML += "<h2>Altura: " + height + "</h2>";
-        infoElement.innerHTML += "<h2>Peso: " + weight + "</h2>";
-        infoElement.innerHTML += "<h2>Experiencia: " + experiencia + "</h2>";
-        infoElement.innerHTML += "<h2>Formas: " + forma + "</h2>";
+        infoElement.innerHTML += "<h2>Altura: " + height + " Cm</h2>";
+        infoElement.innerHTML += "<h2>Peso: " + weight +  " Kg</h2>";
+        infoElement.innerHTML += "<h2>Experiencia: " + experiencia + " XP</h2>";
+        
         
         //Crea la imagen y la configura.
         let imagenElement = document.createElement("img");
